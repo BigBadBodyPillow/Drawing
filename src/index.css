@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+:root {
+  background-color: rgb(255, 237, 214);
+}
+
 #root {
   text-align: center;
   border-inline: 1px solid var(--border);
