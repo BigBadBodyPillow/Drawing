@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Cat() {
   return (
     <div className="cat w-20 h-20 relative">
