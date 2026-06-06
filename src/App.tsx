@@ -5,6 +5,7 @@ import Cube from "./component/drawings/Cube";
 import RainbowLine from "./component/RainbowLine";
 import Twitch from "./component/drawings/Twitch";
 import Apple from "./component/drawings/Apple";
+import Shark from "./component/drawings/Shark";
 
 function App() {
   return (
@@ -29,6 +30,10 @@ function App() {
 
         <Container>
           <Apple />
+        </Container>
+
+        <Container>
+          <Shark />
         </Container>
       </main>
     </>
