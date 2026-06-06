@@ -2,8 +2,8 @@ export default function Twitch() {
   return (
     <div className="cube w-20 h-20 relative flex flex-col items-center justify-center">
       <div className="twitch w-full h-full ">
-        <div className="background-top w-full h-14 bg-[#9147ff] absolute -top-2 -left-2"></div>
-        <div className="background-bottom w-12.5 h-7.75 bg-[#9147ff] absolute top-12 -left-2"></div>
+        <div className="background-top w-22 h-14 bg-[#9147ff] absolute -top-2 -left-4"></div>
+        <div className="background-bottom w-14.5 h-7.75 bg-[#9147ff] absolute top-12 -left-4"></div>
         <div className="background-45deg-on-right w-7 h-11 bg-[#9147ff] absolute top-8 right-4.75 rotate-45"></div>
         <div className="logo-shadow drop-shadow-[-7px_14px_0_#9147ff] w-full h-full">
           <div

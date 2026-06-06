@@ -3,8 +3,8 @@ import Pokeball from "./component/drawings/Pokeball";
 import Cat from "./component/drawings/Cat";
 import Cube from "./component/drawings/Cube";
 import RainbowLine from "./component/RainbowLine";
-// import Youtube from "./component/drawings/Youtube";
 import Twitch from "./component/drawings/Twitch";
+import Apple from "./component/drawings/Apple";
 
 function App() {
   return (
@@ -23,12 +23,12 @@ function App() {
           <Cube />
         </Container>
 
-        {/* <Container>
-          <Youtube />
-        </Container> */}
-
         <Container>
           <Twitch />
+        </Container>
+
+        <Container>
+          <Apple />
         </Container>
       </main>
     </>
