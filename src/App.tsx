@@ -4,7 +4,7 @@ import Cat from "./component/drawings/Cat";
 import Cube from "./component/drawings/Cube";
 import RainbowLine from "./component/RainbowLine";
 import Twitch from "./component/drawings/Twitch";
-import Apple from "./component/drawings/Apple";
+// import Apple from "./component/drawings/Apple";
 import Shark from "./component/drawings/Shark";
 
 function App() {
@@ -28,9 +28,9 @@ function App() {
           <Twitch />
         </Container>
 
-        <Container>
+        {/* <Container>
           <Apple />
-        </Container>
+        </Container> */}
 
         <Container>
           <Shark />
