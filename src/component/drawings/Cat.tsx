@@ -14,7 +14,7 @@ export default function Cat() {
           <div className="nose w-full flex justify-center absolute top-10">
             <div className="rounded-full w-2 h-2 bg-black"></div>
           </div>
-          <div className=" mouth w-full absolute top-13 left-0.5 text-4xl/0 rotate-90">
+          <div className="mouth w-full font-segoe-ui absolute top-13 left-[0.03em] text-4xl/0 rotate-90">
             3
           </div>
         </div>

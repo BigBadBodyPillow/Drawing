@@ -1,5 +1,16 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Segoe UI";
+  src: url("/fonts/segoeui.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme {
+  --font-segoe-ui: "Segoe UI";
+}
+
 :root {
   background-color: rgb(255, 237, 214);
   scrollbar-color: #ff70cb transparent;
