@@ -7,6 +7,7 @@ import Twitch from "./component/drawings/Twitch";
 // import Apple from "./component/drawings/Apple";
 import Shark from "./component/drawings/Shark";
 import Bread from "./component/drawings/Bread";
+import Saturn from "./component/drawings/Saturn";
 
 function App() {
   return (
@@ -39,6 +40,10 @@ function App() {
 
         <Container>
           <Bread />
+        </Container>
+
+        <Container>
+          <Saturn />
         </Container>
       </main>
     </>
