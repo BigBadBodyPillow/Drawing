@@ -4,21 +4,21 @@ export default function Saturn() {
       <svg width="0" height="0">
         <defs>
           <clipPath id="rings" clipPathUnits="objectBoundingBox">
-            <path d="M 0.28 0.4  Q -0.15 0.5 0.17 0.75 C 0.5 0.9 0.5 0.9 0.83 0.75 Q 1.15 0.5 0.72 0.4 L 0.725 0.5 Q 0.9 0.55 0.8 0.6 C 0.5 0.7  0.5 0.7 0.2 0.6 Q 0.1 0.53 0.275 0.5 Z " />
+            <path d="M 0.268 0.4  Q -0.15 0.5 0.17 0.75 C 0.5 0.9 0.5 0.9 0.83 0.75 Q 1.15 0.5 0.73 0.4 L 0.74 0.5 Q 0.5 0.5 0.8 0.6 C 0.5 0.5 0.5 0.7 0.2 0.6 Q 1 1 0.26 0.5 Z " />
             {/* <path d="M 0.16 0.4  Q -0.15 0.5 0.17 0.75 C 0.5 0.9 0.5 0.9 0.83 0.75 Q 1.15 0.5 0.84 0.4 Q 0.85 0.55 0.8 0.6 C 0.5 0.7  0.5 0.7 0.2 0.6 Q 0.15 0.55 0.16 0.4  " /> */}
           </clipPath>
         </defs>
       </svg>
 
       <div
-        className="planet w-10 h-10 rounded-full "
+        className="planet w-20 h-20 rounded-full "
         style={{
           background:
             "linear-gradient(180deg,rgba(255, 236, 217, 1) 0%, rgba(189, 175, 161, 1) 13%, rgba(250, 217, 200, 1) 27%, rgba(255, 209, 179, 1) 38%, rgba(242, 222, 201, 1) 54%, rgba(245, 218, 193, 1) 69%, rgba(255, 255, 255, 1) 83%, rgba(255, 236, 217, 1) 100%)",
         }}
       ></div>
       <div
-        className="rings w-22 h-10 absolute rotate-12  bg-cyan-400"
+        className="rings w-42 h-20 absolute rotate-12 "
         style={{
           clipPath: "url(#rings)",
           backgroundSize: "100% 112%",
