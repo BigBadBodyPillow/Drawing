@@ -4,7 +4,6 @@ import Cat from "./component/drawings/Cat";
 import Cube from "./component/drawings/Cube";
 import RainbowLine from "./component/RainbowLine";
 import Twitch from "./component/drawings/Twitch";
-// import Apple from "./component/drawings/Apple";
 import Shark from "./component/drawings/Shark";
 import Bread from "./component/drawings/Bread";
 import Saturn from "./component/drawings/Saturn";
@@ -29,10 +28,6 @@ function App() {
         <Container>
           <Twitch />
         </Container>
-
-        {/* <Container>
-          <Apple />
-        </Container> */}
 
         <Container>
           <Shark />

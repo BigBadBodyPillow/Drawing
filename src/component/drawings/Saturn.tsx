@@ -5,7 +5,6 @@ export default function Saturn() {
         <defs>
           <clipPath id="rings" clipPathUnits="objectBoundingBox">
             <path d="M 0.268 0.4  Q -0.15 0.5 0.17 0.75 C 0.5 0.9 0.5 0.9 0.83 0.75 Q 1.15 0.5 0.73 0.4 L 0.74 0.5 Q 0.5 0.5 0.8 0.6 C 0.5 0.5 0.5 0.7 0.2 0.6 Q 1 1 0.26 0.5 Z " />
-            {/* <path d="M 0.16 0.4  Q -0.15 0.5 0.17 0.75 C 0.5 0.9 0.5 0.9 0.83 0.75 Q 1.15 0.5 0.84 0.4 Q 0.85 0.55 0.8 0.6 C 0.5 0.7  0.5 0.7 0.2 0.6 Q 0.15 0.55 0.16 0.4  " /> */}
           </clipPath>
         </defs>
       </svg>
@@ -21,8 +20,6 @@ export default function Saturn() {
         className="rings w-42 h-20 absolute rotate-12 "
         style={{
           clipPath: "url(#rings)",
-          backgroundSize: "100% 112%",
-          backgroundPosition: "0px 0px",
           background:
             "radial-gradient(50% 25% at 50% 55%, #00000000 0%, #00000000 48%, #00000000 59%, #BABABA 65%, #00000000 70%, #FFFFFF 70%, #FFFFFF 74%, #00000000 76%, #FFE1B5 81%, #FFE1B5 84%, #00000000 89%, #BABAE0 94%, #BABAE0 100%)",
         }}
