@@ -8,6 +8,7 @@ import Shark from "./component/drawings/Shark";
 import Bread from "./component/drawings/Bread";
 import Saturn from "./component/drawings/Saturn";
 import Batman from "./component/drawings/Batman";
+import Keycap from "./component/drawings/Keycap";
 
 function App() {
   return (
@@ -44,6 +45,10 @@ function App() {
 
         <Container>
           <Batman />
+        </Container>
+
+        <Container>
+          <Keycap />
         </Container>
       </main>
     </>

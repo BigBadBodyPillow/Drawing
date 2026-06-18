@@ -1,10 +1,14 @@
 export default function Batman() {
   return (
     <div className=" w-full h-20 flex items-center justify-center">
-      <div className="batman ">
-        <svg viewBox="0 0 1 1" width="120" preserveAspectRatio="none">
-          <path
-            d="
+      <svg
+        className="batman"
+        viewBox="0 0 1 1"
+        width="120"
+        preserveAspectRatio="none"
+      >
+        <path
+          d="
             M 0 0.3
             L 0.25 0.3
             Q 0.3 0.4 0.4 0.4
@@ -22,10 +26,9 @@ export default function Batman() {
             Q 0.4 0.5 0.1 0.5
             Q 0.1 0.4 0 0.3
             Z"
-            fill="gray"
-          />
-        </svg>
-      </div>
+          fill="gray"
+        />
+      </svg>
     </div>
   );
 }
