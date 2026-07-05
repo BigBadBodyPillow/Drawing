@@ -1,7 +1,7 @@
 export default function Keycap() {
   return (
     <div className="w-25 h-25 flex justify-center items-center relative">
-      <svg className="batman" viewBox="0 0 1 1" width="100">
+      <svg className="keycap" viewBox="0 0 1 1" width="100">
         <foreignObject width="100" height="100">
           <div
             id="sides(back)"
