@@ -9,6 +9,7 @@ import Bread from "./component/drawings/Bread";
 import Saturn from "./component/drawings/Saturn";
 import Batman from "./component/drawings/Batman";
 import Keycap from "./component/drawings/Keycap";
+import Arrow from "./component/drawings/Arrow";
 
 function App() {
   return (
@@ -49,6 +50,10 @@ function App() {
 
         <Container>
           <Keycap />
+        </Container>
+
+        <Container>
+          <Arrow />
         </Container>
       </main>
     </>
