@@ -10,13 +10,13 @@ export default function Arrow() {
         <path
           d="
            M 0.5 0.1
-           Q 0.8 0.6 0.9 0.9
-           Q 0.5 0.8 0.1 0.9
+           Q 0.8 0.6 0.7 0.9
+           Q 0.5 0.8 0.3 0.9
            Q 0.2 0.6 0.5 0.1
            Z"
           fill="white"
           stroke="white"
-          stroke-width="0.04"
+          stroke-width="0.02"
           stroke-linejoin="round"
           stroke-linecap="round"
         />
