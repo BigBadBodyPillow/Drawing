@@ -8,7 +8,7 @@ export default function Bread() {
           height="100"
           fill="#f4d19b"
           stroke="#a67c52"
-          stroke-width="6"
+          strokeWidth="6"
         >
           <path
             d="

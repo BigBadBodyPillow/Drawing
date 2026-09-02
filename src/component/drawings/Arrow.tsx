@@ -16,9 +16,9 @@ export default function Arrow() {
            Z"
           fill="white"
           stroke="white"
-          stroke-width="0.02"
-          stroke-linejoin="round"
-          stroke-linecap="round"
+          strokeWidth="0.02"
+          strokeLinejoin="round"
+          strokeLinecap="round"
         />
       </svg>
     </div>

@@ -10,6 +10,7 @@ import Saturn from "./component/drawings/Saturn";
 import Batman from "./component/drawings/Batman";
 import Keycap from "./component/drawings/Keycap";
 import Arrow from "./component/drawings/Arrow";
+import Deadlock from "./component/drawings/Deadlock";
 
 function App() {
   return (
@@ -54,6 +55,10 @@ function App() {
 
         <Container>
           <Arrow />
+        </Container>
+
+        <Container>
+          <Deadlock />
         </Container>
       </main>
     </>

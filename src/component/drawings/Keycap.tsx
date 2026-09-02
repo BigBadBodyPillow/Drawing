@@ -25,8 +25,8 @@ export default function Keycap() {
 
         <defs>
           <linearGradient id="keycap-ring" gradientTransform="rotate(45)">
-            <stop offset="60%" stop-color="white" />
-            <stop offset="1000%" stop-color="#C2C2C2FF" />
+            <stop offset="60%" stopColor="white" />
+            <stop offset="1000%" stopColor="#C2C2C2FF" />
           </linearGradient>
         </defs>
       </svg>
