@@ -10,4 +10,4 @@ C x1 y1 x2 y2 xy - cubic bezier. same as above except 2 points pulling
 
 ## TODO
 
-- Fix the notches, scaling seems a bit off.
+- [x] Fix the notches in, scaling seems a bit off.
